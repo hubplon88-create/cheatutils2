@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "cheatutils",
+  "version": "${version}",
+  "name": "CheatUtils",
+  "description": "Singleplayer utility mod: KillAura, ESP, Xray, AutoClicker, AutoFarm.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.cheatutils.CheatUtilsClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "fabric-api": "*",
+    "minecraft": "1.21.11",
+    "java": ">=21"
+  }
+}
